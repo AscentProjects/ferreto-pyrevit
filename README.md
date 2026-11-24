@@ -31,6 +31,9 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 - [Skill criar-script-dynamo](ia/skills/criar-script-dynamo/SKILL.md): escreve o nó Python do Dynamo a partir do seu pedido, com entrada, regras e log de erros (Aula 17).
 - [Skill criar-plugin-pyrevit](ia/skills/criar-plugin-pyrevit/SKILL.md): monta um botão de pyRevit, com a estrutura de pastas, o script e a instalação para a equipe (Aula 18).
 - [Caderno do projetista](ia/caderno/caderno-do-projetista.md) (Aula 20): regras de esgoto, caixas e reservatório da NBR 8160 e da NBR 5626, escritas com as nossas palavras, junto com os padrões do escritório. Cada regra tem código e diz onde achar o trecho na norma. Não substitui a norma.
+- [Skill escrever-memorial](ia/skills/escrever-memorial/SKILL.md) (Aula 20): escreve o memorial descritivo a partir dos dados do modelo e confere cada trecho pelo caderno.
+- [Memorial de exemplo](ia/memorial/memorial-banheiro-exemplo.md) (Aula 20): água fria, esgoto e ventilação de um banheiro da casa do curso, com os pontos que a IA levantou para o projetista confirmar.
+- [Instruções do projeto no Claude](ia/projeto/instrucoes-do-projeto.md) (Aula 20): texto para colar num projeto do Claude e usar o caderno no seu escritório.
 
 Cada skill termina dizendo quando atualizá-la e quando a correção é só uma exceção daquele projeto.
 
