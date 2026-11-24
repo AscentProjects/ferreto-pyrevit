@@ -10,8 +10,19 @@ Ela cria a aba **Ferreto** no Revit com o botão **Criar Pranchas**, que cria v�
 
 ## Downloads
 
-- [modelo-pranchas.xlsx](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/modelo-pranchas.xlsx): modelo de planilha para importar, com a lista de famílias na coluna Família.
-- [PRANCHA PARAMÉTRICA FERRETO - V03.1.rfa](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/familias/PRANCHA%20PARAM%C3%89TRICA%20FERRETO%20-%20V03.1.rfa): família de prancha da Ferreto Engenharia (tipos A0, A1, A1 Estendido e A2), disponibilizada com autorização dela. Carregue no projeto antes de usar o botão.
+### Modelo de planilha: [modelo-pranchas.xlsx](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/modelo-pranchas.xlsx)
+
+Uma prancha por linha: Número, Nome e Família. A coluna Família traz a lista suspensa com as pranchas do template Ferreto; em branco, o botão usa a família padrão escolhida na janela.
+
+![Modelo de planilha com as colunas Número, Nome e Família, e as opções da lista suspensa](docs/modelo-pranchas.png)
+
+### Família de prancha: [PRANCHA PARAMÉTRICA FERRETO - V03.1.rfa](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/familias/PRANCHA%20PARAM%C3%89TRICA%20FERRETO%20-%20V03.1.rfa)
+
+Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A2, disponibilizada com autorização dela. Carregue no projeto antes de usar o botão. O carimbo puxa os dados das Informações do projeto.
+
+![Prancha A1 da família Ferreto V03.1](docs/familia-v031.png)
+
+![Detalhe do carimbo da família Ferreto V03.1](docs/familia-v031-carimbo.png)
 
 ## Instalar
 
