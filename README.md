@@ -28,6 +28,10 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 
 - [Cheat sheet de IA para projetistas (PDF)](https://github.com/AscentProjects/ferreto-pyrevit/raw/master/ia/cheat-sheet-ia.pdf): os termos do bloco (modelo, contexto, agente, skill, plugin de IA, MCP) e os pedidos que usamos nas aulas, numa página.
 - [Skill revisar-pranchas](ia/skills/revisar-pranchas/SKILL.md): exemplo de skill com o checklist de revisão da documentação antes da entrega. Copie a pasta para as skills do seu Claude e adapte ao padrão do seu escritório.
+- [Skill criar-script-dynamo](ia/skills/criar-script-dynamo/SKILL.md): escreve o nó Python do Dynamo a partir do seu pedido, com entrada, regras e log de erros (Aula 17).
+- [Skill criar-plugin-pyrevit](ia/skills/criar-plugin-pyrevit/SKILL.md): monta um botão de pyRevit, com a estrutura de pastas, o script e a instalação para a equipe (Aula 18).
+
+Cada skill termina dizendo quando atualizá-la e quando a correção é só uma exceção daquele projeto.
 
 ![Cheat sheet de IA para projetistas](docs/cheat-sheet-ia.png)
 

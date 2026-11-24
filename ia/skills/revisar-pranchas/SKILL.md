@@ -29,3 +29,5 @@ Uma tabela com: prancha, item do checklist, problema encontrado, sugestão. No f
 ## Quando atualizar esta skill
 
 Se o projetista corrigir uma revisão sua ("esse padrão de numeração está errado", "faltou conferir a revisão do carimbo"), proponha a mudança no checklist acima e peça para salvar. Uma correção feita uma vez não deve precisar ser repetida.
+
+Se a correção vale só para este projeto ("neste cliente a numeração começa em 00"), é uma **exceção**: aplique na revisão e não mude a skill.
