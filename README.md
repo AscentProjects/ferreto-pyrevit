@@ -10,13 +10,13 @@ Ela cria a aba **Ferreto** no Revit com o botão **Criar Pranchas**, que cria v�
 
 ## Downloads
 
-### Modelo de planilha: [modelo-pranchas.xlsx](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/modelo-pranchas.xlsx)
+### Modelo de planilha: [modelo-pranchas.xlsx](https://github.com/AscentProjects/ferreto-pyrevit/raw/master/modelo-pranchas.xlsx)
 
 Uma prancha por linha: Número, Nome e Família. A coluna Família traz a lista suspensa com as pranchas do template Ferreto; em branco, o botão usa a família padrão escolhida na janela.
 
 ![Modelo de planilha com as colunas Número, Nome e Família, e as opções da lista suspensa](docs/modelo-pranchas.png)
 
-### Família de prancha: [PRANCHA PARAMÉTRICA FERRETO - V03.1.rfa](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/familias/PRANCHA%20PARAM%C3%89TRICA%20FERRETO%20-%20V03.1.rfa)
+### Família de prancha: [PRANCHA PARAMÉTRICA FERRETO - V03.1.rfa](https://github.com/AscentProjects/ferreto-pyrevit/raw/master/familias/PRANCHA%20PARAM%C3%89TRICA%20FERRETO%20-%20V03.1.rfa)
 
 Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A2, disponibilizada com autorização dela. Carregue no projeto antes de usar o botão. O carimbo puxa os dados das Informações do projeto.
 
@@ -26,7 +26,7 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 
 ## Recursos de IA (Aula 19)
 
-- [Cheat sheet de IA para projetistas (PDF)](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/ia/cheat-sheet-ia.pdf): os termos do bloco (modelo, contexto, agente, skill, plugin de IA, MCP) e os pedidos que usamos nas aulas, numa página.
+- [Cheat sheet de IA para projetistas (PDF)](https://github.com/AscentProjects/ferreto-pyrevit/raw/master/ia/cheat-sheet-ia.pdf): os termos do bloco (modelo, contexto, agente, skill, plugin de IA, MCP) e os pedidos que usamos nas aulas, numa página.
 - [Skill revisar-pranchas](ia/skills/revisar-pranchas/SKILL.md): exemplo de skill com o checklist de revisão da documentação antes da entrega. Copie a pasta para as skills do seu Claude e adapte ao padrão do seu escritório.
 
 ![Cheat sheet de IA para projetistas](docs/cheat-sheet-ia.png)
@@ -36,7 +36,7 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 No terminal (PowerShell ou Prompt de Comando):
 
 ```
-pyrevit extend ui Ferreto https://github.com/PablloDantas/ferreto-pyrevit.git
+pyrevit extend ui Ferreto https://github.com/AscentProjects/ferreto-pyrevit.git
 ```
 
 Depois, no Revit, vá na aba **pyRevit** e clique em **Reload**. A aba **Ferreto** aparece.
