@@ -8,6 +8,11 @@ Ela cria a aba **Ferreto** no Revit com o botão **Criar Pranchas**, que cria v�
 
 - Revit com o [pyRevit](https://github.com/pyrevitlabs/pyRevit) instalado.
 
+## Downloads
+
+- [modelo-pranchas.xlsx](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/modelo-pranchas.xlsx): modelo de planilha para importar, com a lista de famílias na coluna Família.
+- [PRANCHA PARAMÉTRICA FERRETO - V03.1.rfa](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/familias/PRANCHA%20PARAM%C3%89TRICA%20FERRETO%20-%20V03.1.rfa): família de prancha da Ferreto Engenharia (tipos A0, A1, A1 Estendido e A2), disponibilizada com autorização dela. Carregue no projeto antes de usar o botão.
+
 ## Instalar
 
 No terminal (PowerShell ou Prompt de Comando):
@@ -30,7 +35,7 @@ HID-02 | PLANTA HIDRÁULICA - SUPERIOR
 SAN-01 | PLANTA SANITÁRIA - TÉRREO | Família da prancha: Tipo
 ```
 
-4. Ou clique em **Importar do Excel** e escolha uma planilha `.xlsx` com as colunas Número, Nome e Família (opcional). Veja o modelo em `pranchas-exemplo.xlsx`.
+4. Ou clique em **Importar do Excel** e escolha uma planilha `.xlsx` com as colunas Número, Nome e Família (opcional). Use o modelo `modelo-pranchas.xlsx`: a coluna Família já traz a lista das pranchas do template Ferreto.
 5. Clique em **Criar pranchas**. No fim, uma tabela mostra o que foi criado e o que foi pulado. Número que já existe no modelo é pulado.
 
 Tudo roda numa transação só: um Ctrl+Z desfaz a criação inteira.
