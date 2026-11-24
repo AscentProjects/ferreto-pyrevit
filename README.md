@@ -24,6 +24,13 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 
 ![Detalhe do carimbo da família Ferreto V03.1](docs/familia-v031-carimbo.png)
 
+## Recursos de IA (Aula 19)
+
+- [Cheat sheet de IA para projetistas (PDF)](https://github.com/PablloDantas/ferreto-pyrevit/raw/master/ia/cheat-sheet-ia.pdf): os termos do bloco (modelo, contexto, agente, skill, plugin de IA, MCP) e os pedidos que usamos nas aulas, numa página.
+- [Skill revisar-pranchas](ia/skills/revisar-pranchas/SKILL.md): exemplo de skill com o checklist de revisão da documentação antes da entrega. Copie a pasta para as skills do seu Claude e adapte ao padrão do seu escritório.
+
+![Cheat sheet de IA para projetistas](docs/cheat-sheet-ia.png)
+
 ## Instalar
 
 No terminal (PowerShell ou Prompt de Comando):
