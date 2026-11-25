@@ -67,6 +67,12 @@ SAN-01 | PLANTA SANITÁRIA - TÉRREO | Família da prancha: Tipo
 
 Tudo roda numa transação só: um Ctrl+Z desfaz a criação inteira.
 
+## Versão feita na Aula 18
+
+A pasta [`aula-18/Ascent.extension`](aula-18/Ascent.extension) guarda o botão que montamos ao vivo na aula, do jeito que a IA escreveu. Ele cria a aba **Ascent** com o mesmo botão **Criar Pranchas**, com alguns recursos a mais: carimbo escolhido no formato `Família : Tipo`, validação de cada linha antes de criar (número repetido, caracteres que o Revit não aceita) e um relatório em que o número de cada prancha criada abre a prancha.
+
+As duas versões ficam no repositório: a extensão da raiz (aba **Ferreto**) é a de referência, e a da Aula 18 é para você comparar com a que fez. Para usar a da aula, copie a pasta `Ascent.extension` para `%APPDATA%\pyRevit\Extensions` e clique em **pyRevit > Reload**. O passo a passo completo está no [LEIA-ME](aula-18/Ascent.extension/LEIA-ME.md) dela.
+
 ## Estrutura
 
 ```
