@@ -35,6 +35,7 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 - [Memorial de exemplo](ia/memorial/memorial-banheiro-exemplo.md) (Aula 20): água fria, esgoto e ventilação de um banheiro da casa do curso, com os pontos que a IA levantou para o projetista confirmar.
 - [Instruções do projeto no Claude](ia/projeto/instrucoes-do-projeto.md) (Aula 20): texto para colar num projeto do Claude e usar o caderno no seu escritório.
 - [Agente de IA no Revit](ia/agente-no-revit/README.md) (Aula 21): instalação do MCP Server for Revit Python, onde costuma travar e os pedidos de conferência e correção pelo caderno.
+- [Prompt de configuração](ia/agente-no-revit/prompt-de-configuracao.md) (Aula 21): cole no Claude e ele lê o seu computador, consulta a documentação da versão do pyRevit instalada e te dá os comandos de terminal e o passo a passo manual para ligar o Claude ao Revit.
 
 Cada skill termina dizendo quando atualizá-la e quando a correção é só uma exceção daquele projeto.
 

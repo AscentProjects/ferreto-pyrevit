@@ -4,6 +4,12 @@ Liga o Claude ao Revit pelo MCP, para a IA consultar e corrigir o modelo conferi
 
 Tudo roda no seu computador. A ponte entre o Claude e o Revit só aceita conexão da própria máquina. Não exponha as portas para a rede nem para a internet.
 
+## Configure com o prompt (caminho da aula)
+
+O jeito mais fácil é deixar o Claude olhar o seu computador e montar a instalação para você. Copie o [prompt de configuração](prompt-de-configuracao.md) num chat novo: ele confere a versão do pyRevit e da extensão que você tem, consulta a documentação dessas versões e devolve os comandos de terminal e o passo a passo manual, só com o que falta na sua máquina. É o que fazemos na prática da Aula 21.
+
+Os passos abaixo são a referência do que ele vai montar.
+
 ## Instalação (uma vez só)
 
 1. **pyRevit** instalado, como na Aula 18. Baixe só do site oficial do pyRevit.
