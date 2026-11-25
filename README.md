@@ -34,6 +34,7 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 - [Skill escrever-memorial](ia/skills/escrever-memorial/SKILL.md) (Aula 20): escreve o memorial descritivo a partir dos dados do modelo e confere cada trecho pelo caderno.
 - [Memorial de exemplo](ia/memorial/memorial-banheiro-exemplo.md) (Aula 20): água fria, esgoto e ventilação de um banheiro da casa do curso, com os pontos que a IA levantou para o projetista confirmar.
 - [Instruções do projeto no Claude](ia/projeto/instrucoes-do-projeto.md) (Aula 20): texto para colar num projeto do Claude e usar o caderno no seu escritório.
+- [Agente de IA no Revit](ia/agente-no-revit/README.md) (Aula 21): instalação do MCP Server for Revit Python, onde costuma travar e os pedidos de conferência e correção pelo caderno.
 
 Cada skill termina dizendo quando atualizá-la e quando a correção é só uma exceção daquele projeto.
 
