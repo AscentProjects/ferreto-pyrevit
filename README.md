@@ -24,6 +24,16 @@ Família de prancha da Ferreto Engenharia, com os tipos A0, A1, A1 Estendido e A
 
 ![Detalhe do carimbo da família Ferreto V03.1](docs/familia-v031-carimbo.png)
 
+## Banco de modelagem (Aula 04)
+
+### Planilha: [banco-de-modelagem.xlsx](https://github.com/AscentProjects/ferreto-pyrevit/raw/master/aula-04/banco-de-modelagem.xlsx)
+
+Um banco de modelagem no lugar do showroom: cada linha é uma solução que você já modelou (projeto, arquivo, sistema, ambiente, peças, palavras-chave e os IDs dos elementos). Vem com 9 soluções da casa do curso para servir de exemplo.
+
+- **Pesquisar à mão:** na aba Menu, digite até 4 palavras (ex.: boiler válvula) e veja as soluções com o caminho do arquivo e os IDs. No Revit, Gerenciar > Selecionar por ID e cole os IDs.
+- **Pesquisar com IA:** anexe a planilha no ChatGPT ou no Claude, cole o texto da aba Como usar e pergunte do seu jeito ("onde eu fiz um reservatório com extravasor e air gap?").
+- **Para usar no seu escritório:** na aba Configurações, troque a pasta pela pasta dos seus projetos e, a cada projeto entregue, cadastre 5 ou 6 soluções.
+
 ## Recursos de IA (Aula 19)
 
 - [Cheat sheet de IA para projetistas (PDF)](https://github.com/AscentProjects/ferreto-pyrevit/raw/master/ia/cheat-sheet-ia.pdf): os termos do bloco (modelo, contexto, agente, skill, plugin de IA, MCP) e os pedidos que usamos nas aulas, numa página.
